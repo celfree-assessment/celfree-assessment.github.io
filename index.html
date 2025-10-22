@@ -1,0 +1,71 @@
+<!--Hey, you're here and looking at my web-site source!-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>celFree's web-site</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 style="display: inline">celFree's web-site</h1>
+
+        <div id="nav">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">programming</a></li>
+                <li><a href="">drums</a></li>
+                <li><a href="">card games</a></li>
+                <li><a href="">writing archive</a></li>
+                <li><a href="">about</a></li>
+            </ul>
+        </div>
+                
+        <div class="splash">
+            <p id="main_splash" class="splash"></p>
+            <p id="secondary_splash" class="splash"></p>
+        </div>
+        <hr>
+
+        <p>Welcome, and thank you for landing on to my godforsaken web-site.</p>
+        <p>I like programming and drums.
+            <br>My favourite games are FreeCell, Hearts and Double Klondike.
+        </p>
+
+        <p>Feel free to browse around. I have some drum transcriptions on my drums page and some projects I've been working on the programming page.
+            <br>Most of my writing is random shit, so look if you wish.</p>
+        <hr>
+        <h2>My latest projects</h2>
+        <ul>
+            <li><a href="">WinForms Snake (C#)</a></li>
+            <li><a href="">Dookie - Green Day - complete album drum transcription</a></li>
+            <li><a href=""></a></li>
+        </ul>
+
+        <hr>
+        <h2>Other stuff</h2>
+
+        <div class="debugbox">
+            <h3>Web-site settings</h3>
+
+            <h4>Change splash</h4>
+            <div id="request_splash">
+                <p id="splash_id">I don't know which splash is displaying right now :(</p>
+                <input type="number", id="requested_splash">
+                <button id="regen_splash">Request splash!</button>
+                <button id="previous_splash">&lt;&lt;</button> <!--<<-->
+                <button id="next_splash">&gt;&gt;</button>
+            </div>
+
+            <input type="checkbox", id="sex">
+            <label for="sex">Show suggestive splashes</label>
+        </div>
+
+        <script src="splash.js"></script>
+        <script src="action.js"></script>
+    </body>
+
+    <footer>
+        
+    </footer>
+</html> 

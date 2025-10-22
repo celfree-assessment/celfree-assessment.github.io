@@ -1,0 +1,26 @@
+#nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+#nav li {
+    display: inline; 
+    margin-right: 10px; 
+}
+
+
+.splash {
+    font-style: italic; 
+    color: grey;
+
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+}
+
+.debugbox {
+    height: 1px;
+    background-color: #ddd;  
+    margin: 10px 10px;
+}
